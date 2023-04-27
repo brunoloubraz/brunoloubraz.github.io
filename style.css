@@ -7,12 +7,25 @@
 
 #fotoperfil{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 30%;
     border-radius: 50%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: black;
 }
 
+h1:hover{
+    color: red;
+}
+
+h3:hover{
+    color:coral;
+    font-size: 60px;
+}
+
+li:hover{
+    border:1px solid salmon
+}
 
 a{
     text-decoration: none;
@@ -37,4 +50,20 @@ h3{
     font-weight: 900;
     text-align: center;
     font-size: 20px;
+}
+
+.descricao{
+    position: absolute;
+    margin-left: 54%;
+    margin-top: 17%;
+    max-width: 27%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900; 
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.habilidades li:nth-child(odd) {
+    background-color: crimson;
 }
